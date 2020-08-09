@@ -1,11 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="010e53f3-2bc3-4f5f-ae4d-35a0d9e59fdb" name="Default Changelist" comment="" />
+    <list default="true" id="010e53f3-2bc3-4f5f-ae4d-35a0d9e59fdb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/club/chillman/core/BeanContainer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/club/chillman/demo/service/combine/HeadLineShopCategoryCombineService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/club/chillman/demo/service/combine/impl/HeadLineShopCategoryCombineServiceImpl2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/club/chillman/inject/DependencyInjector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/club/chillman/inject/annotation/Autowired.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/club/chillman/util/ValidationUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/test/java/my/test/core/BeanContainerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/test/java/my/test/inject/DependencyInjectTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/core/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/club/chillman/demo/core/annotation/Component.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/club/chillman/core/annotation/Component.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/club/chillman/demo/core/annotation/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/club/chillman/core/annotation/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/club/chillman/demo/core/annotation/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/club/chillman/core/annotation/Repository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/club/chillman/demo/core/annotation/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/club/chillman/core/annotation/Service.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/club/chillman/demo/core/util/ClassUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/club/chillman/util/ClassUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/test/java/club/chillman/demo/core/ClassUtilTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/test/java/my/test/util/ClassUtilTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/club/chillman/demo/HelloServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/club/chillman/demo/HelloServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/club/chillman/demo/controller/DispatcherServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/club/chillman/demo/controller/DispatcherServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/club/chillman/demo/controller/frontend/MainPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/club/chillman/demo/controller/frontend/MainPageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/club/chillman/demo/controller/superadmin/HeadLineOperationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/club/chillman/demo/controller/superadmin/HeadLineOperationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/club/chillman/demo/controller/superadmin/ShopCategoryOperationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/club/chillman/demo/controller/superadmin/ShopCategoryOperationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/club/chillman/demo/entity/bo/HeadLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/club/chillman/demo/entity/bo/HeadLine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/club/chillman/demo/entity/bo/ShopCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/club/chillman/demo/entity/bo/ShopCategory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/club/chillman/demo/entity/dto/MainPageInfoDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/club/chillman/demo/entity/dto/MainPageInfoDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/club/chillman/demo/entity/dto/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/club/chillman/demo/entity/dto/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/club/chillman/demo/service/combine/HeadLineShopCategoryCombineService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/club/chillman/demo/service/combine/impl/HeadLineShopCategoryCombineServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/club/chillman/demo/service/combine/impl/HeadLineShopCategoryCombineServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/club/chillman/demo/service/combine/impl/HeadLineShopCategoryCombineServiceImpl2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/club/chillman/demo/service/solo/HeadLineService.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/club/chillman/demo/service/solo/HeadLineService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/club/chillman/demo/service/solo/ShopCategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/club/chillman/demo/service/solo/ShopCategoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/club/chillman/demo/service/solo/impl/HeadLineServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/club/chillman/demo/service/solo/impl/HeadLineServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/club/chillman/demo/service/solo/impl/ShopCategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/club/chillman/demo/service/solo/impl/ShopCategoryServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -33,6 +85,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1fUwSXwquCHWbzWqXiEaqCCLJZQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -41,68 +96,121 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../new5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/core/src/main/resources" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.19195402" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="club.chillman" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="club.chillman.core.annotation" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\STUDY\JavaProject\chill-spring\core\src\main\resources" />
+      <recent name="D:\STUDY\JavaProject\chill-spring\core\src\main\java\club\chillman\core" />
       <recent name="D:\STUDY\JavaProject\chill-spring\src\main\java\club\chillman\controller" />
       <recent name="D:\STUDY\JavaProject\chill-spring\src\main\java\club\chillman\controller\frontend" />
       <recent name="D:\STUDY\JavaProject\chill-spring\src\main\java\club\chillman\service" />
-      <recent name="D:\STUDY\JavaProject\chill-spring\src\main\java\club\chillman\entity" />
-      <recent name="D:\STUDY\JavaProject\chill-spring\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ClassUtilTest.extractPackageClassTest">
-    <configuration name="ClassUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="club.chillman.core.util.ClassUtil" />
+  <component name="RunManager" selected="JUnit.DependencyInjectTest.doIocTest">
+    <configuration name="BeanContainerTest (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="club.chillman.core.util.*" />
+          <option name="PATTERN" value="club.chillman.test.core.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ClassUtilTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="core" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="club.chillman.demo.core.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="club.chillman.demo.core" />
-      <option name="MAIN_CLASS_NAME" value="club.chillman.demo.core.ClassUtilTest" />
+      <option name="PACKAGE_NAME" value="club.chillman.test.core" />
+      <option name="MAIN_CLASS_NAME" value="club.chillman.test.core.BeanContainerTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClassUtilTest.extractPackageClassTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BeanContainerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="club.chillman.demo.core.*" />
+          <option name="PATTERN" value="my.test.core.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="club.chillman.demo.core" />
-      <option name="MAIN_CLASS_NAME" value="club.chillman.demo.core.ClassUtilTest" />
-      <option name="METHOD_NAME" value="extractPackageClassTest" />
+      <option name="PACKAGE_NAME" value="my.test.core" />
+      <option name="MAIN_CLASS_NAME" value="my.test.core.BeanContainerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BeanContainerTest.loadBeansTest (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="my.test.core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="my.test.core" />
+      <option name="MAIN_CLASS_NAME" value="my.test.core.BeanContainerTest" />
+      <option name="METHOD_NAME" value="loadBeansTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BeanContainerTest.loadBeansTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="club.chillman.core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="club.chillman.test.core" />
+      <option name="MAIN_CLASS_NAME" value="club.chillman.test.core.BeanContainerTest" />
+      <option name="METHOD_NAME" value="loadBeansTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DependencyInjectTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="my.test.inject.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="my.test.inject" />
+      <option name="MAIN_CLASS_NAME" value="my.test.inject.DependencyInjectTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DependencyInjectTest.doIocTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="my.test.inject.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="my.test.inject" />
+      <option name="MAIN_CLASS_NAME" value="my.test.inject.DependencyInjectTest" />
+      <option name="METHOD_NAME" value="doIocTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -135,9 +243,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ClassUtilTest.extractPackageClassTest" />
-        <item itemvalue="JUnit.ClassUtilTest" />
-        <item itemvalue="Application.ClassUtil" />
+        <item itemvalue="JUnit.DependencyInjectTest.doIocTest" />
+        <item itemvalue="JUnit.DependencyInjectTest" />
+        <item itemvalue="JUnit.BeanContainerTest" />
+        <item itemvalue="JUnit.BeanContainerTest.loadBeansTest (2)" />
+        <item itemvalue="JUnit.BeanContainerTest.loadBeansTest (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -157,96 +267,138 @@
       <workItem from="1596526471421" duration="645000" />
       <workItem from="1596824458877" duration="1763000" />
       <workItem from="1596875746867" duration="4090000" />
-      <workItem from="1596950618036" duration="8244000" />
+      <workItem from="1596950618036" duration="12198000" />
+      <workItem from="1596975000935" duration="13369000" />
     </task>
+    <task id="LOCAL-00001" summary="类加载工具类测试">
+      <created>1596971034838</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1596971034838</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="类加载工具类测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="类加载工具类测试" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="361" y="71" key="#Project_Structure" timestamp="1596974905991">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="71" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1596974905991" />
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596287301346">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596287301346" />
-    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1596294083734">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1596294083734" />
-    <state x="372" y="383" width="791" height="440" key="CommitChangelistDialog2" timestamp="1596971022217">
+    <state x="93" y="93" width="1350" height="638" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1596975453937">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="372" y="383" width="791" height="440" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1596971022217" />
+    <state x="93" y="93" width="1350" height="638" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1536.824@0.0.1536.824" timestamp="1596975453937" />
+    <state x="612" y="181" key="#com.intellij.ide.util.MemberChooser" timestamp="1596997377765">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="612" y="181" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1596997377765" />
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1596294083734" />
+    <state x="573" y="337" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1596997020582">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="573" y="337" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1596997020582" />
+    <state x="548" y="283" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1596976449276">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="548" y="283" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1536.824@0.0.1536.824" timestamp="1596976449276" />
+    <state x="372" y="383" width="791" height="440" key="CommitChangelistDialog2" timestamp="1596971033558">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="372" y="383" width="791" height="440" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1596971033558" />
     <state x="592" y="218" key="FileChooserDialogImpl" timestamp="1596967675302">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="592" y="218" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1596967675302" />
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1596446665637" />
-    <state width="1493" height="605" key="GridCell.Tab.0.bottom" timestamp="1596967537319">
+    <state x="361" y="71" key="GrepConsoleSettings" timestamp="1596995233899">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="605" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596967537319" />
+    <state x="361" y="71" key="GrepConsoleSettings/0.0.1536.824@0.0.1536.824" timestamp="1596995233899" />
+    <state width="1493" height="534" key="GridCell.Tab.0.bottom" timestamp="1597003552132">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="534" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1597003552132" />
     <state width="1877" height="211" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1596303060380" />
-    <state width="1493" height="605" key="GridCell.Tab.0.center" timestamp="1596967537319">
+    <state width="1493" height="534" key="GridCell.Tab.0.center" timestamp="1597003552132">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="605" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1596967537319" />
+    <state width="1493" height="534" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1597003552132" />
     <state width="1877" height="211" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1596303060380" />
-    <state width="1493" height="605" key="GridCell.Tab.0.left" timestamp="1596967537319">
+    <state width="1493" height="534" key="GridCell.Tab.0.left" timestamp="1597003552131">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="605" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1596967537319" />
+    <state width="1493" height="534" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1597003552131" />
     <state width="1877" height="211" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1596303060379" />
-    <state width="1493" height="605" key="GridCell.Tab.0.right" timestamp="1596967537319">
+    <state width="1493" height="534" key="GridCell.Tab.0.right" timestamp="1597003552132">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="605" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1596967537319" />
+    <state width="1493" height="534" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1597003552132" />
     <state width="1877" height="211" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596303060380" />
-    <state width="1493" height="499" key="GridCell.Tab.1.bottom" timestamp="1596966248718">
+    <state width="1493" height="231" key="GridCell.Tab.1.bottom" timestamp="1597003059352">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="499" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596966248718" />
-    <state width="1493" height="499" key="GridCell.Tab.1.center" timestamp="1596966248718">
+    <state width="1493" height="231" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1597003059352" />
+    <state width="1493" height="231" key="GridCell.Tab.1.center" timestamp="1597003059351">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="499" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1596966248718" />
-    <state width="1493" height="499" key="GridCell.Tab.1.left" timestamp="1596966248718">
+    <state width="1493" height="231" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1597003059351" />
+    <state width="1493" height="231" key="GridCell.Tab.1.left" timestamp="1597003059351">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="499" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1596966248718" />
-    <state width="1493" height="499" key="GridCell.Tab.1.right" timestamp="1596966248718">
+    <state width="1493" height="231" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1597003059351" />
+    <state width="1493" height="231" key="GridCell.Tab.1.right" timestamp="1597003059351">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="499" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1596966248718" />
-    <state x="270" y="0" key="SettingsEditor" timestamp="1596966162104">
+    <state width="1493" height="231" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1597003059351" />
+    <state x="270" y="0" key="SettingsEditor" timestamp="1596974911676">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="270" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1596966162104" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1596970984935">
+    <state x="270" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1596974911676" />
+    <state x="490" y="154" width="540" height="524" key="StructurePopup" timestamp="1597003089117">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1596970984935" />
-    <state x="512" y="273" key="com.intellij.ide.util.TipDialog" timestamp="1596950635394">
+    <state x="490" y="154" width="540" height="524" key="StructurePopup/0.0.1536.824@0.0.1536.824" timestamp="1597003089117" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1596971040712">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="512" y="273" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1596950635394" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1596971040712" />
+    <state x="512" y="273" key="com.intellij.ide.util.TipDialog" timestamp="1596975005390">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="512" y="273" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1596975005390" />
     <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596446025465" />
+    <state x="447" y="145" width="642" height="534" key="find.popup" timestamp="1597003076024">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="447" y="145" width="642" height="534" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1597003076024" />
     <state x="178" y="107" key="new project wizard" timestamp="1596957107928">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="178" y="107" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1596957107928" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1596963399162">
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1596999089185">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1596963399162" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1596999089185" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/core/src/main/java/club/chillman/demo/core/util/ClassUtil.java</url>
-          <line>27</line>
-          <option name="timeStamp" value="2" />
+          <url>file://$PROJECT_DIR$/core/src/main/java/club/chillman/inject/DependencyInjector.java</url>
+          <line>75</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
